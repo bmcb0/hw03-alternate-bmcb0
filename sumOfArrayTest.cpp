@@ -3,7 +3,7 @@
 
 int main() {
 
-  int fiveThrees[5]={3,3,3,3,3};
+  int fiveThrees[5]={3,3,3,3,3}; //initializes all five elements to 3
   assertEquals(15,
 	       sumOfArray(fiveThrees,5),
 	       "sumOfArray(fiveThrees,5)");
@@ -14,7 +14,7 @@ int main() {
 	       "sumOfArray(zeros,3)" );  
 
   
-  int fiveInts[5]={12,3,4,-9,1}; 
+  int fiveInts[5]={12,3,4,-9,1}; //initializes various numbers to 5 elements
   assertEquals(11,
 	       sumOfArray(fiveInts,5), 
 	       "sumOfArray(fiveInts,5)" ); 

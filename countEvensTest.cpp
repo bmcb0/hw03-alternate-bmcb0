@@ -1,5 +1,6 @@
 #include "arrayFuncs.h"
 #include "tddFuncs.h"
+#include "utility.h"
 
 int main() {
 
